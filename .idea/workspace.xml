@@ -4,35 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d7240c3-dd3f-47e9-8110-0660a903913f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fida/todos/TodoEintragApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fida/todos/builder/TodoEintragBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fida/todos/config/EintragConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fida/todos/controller/TodoEintragController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fida/todos/exception/AppNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fida/todos/model/domain/TodoEintrag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fida/todos/model/dto/TodoEintragDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fida/todos/repository/TodoEintragRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fida/todos/service/TodoEintragService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fida/todos/service/TodoEintragServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/fida/todos/TodoEintragApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/fida/todos/controller/TodoEintragControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/fida/todos/model/domain/TodoEintragTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/fida/todos/service/TodoEintragServiceImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/fida/todos/utils/TodoEintragUtils.java" afterDir="false" />
-    </list>
+    <list default="true" id="3d7240c3-dd3f-47e9-8110-0660a903913f" name="Changes" comment="Ersteinrichtung ohne Servicetests and frontend" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,6 +19,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JpbToolWindowState">
@@ -96,6 +74,7 @@
     "JUnit.TodoEintragControllerTest.sollteErfolgreichZweiNeuenEintrageErstellen.executor": "Run",
     "JUnit.TodoEintragServiceImplTest.ErstelEinNeueEintrag.executor": "Run",
     "JUnit.TodoEintragServiceImplTest.SammelalleTodoEintrage.executor": "Run",
+    "JUnit.TodoEintragTest.executor": "Run",
     "JUnit.TodoEintragTest.getId.executor": "Run",
     "JUnit.TodoEintragTest.setErledigungsdatum.executor": "Run",
     "JUnit.TodoEintragTest.setId.executor": "Debug",
@@ -250,8 +229,17 @@
       <workItem from="1723456918205" duration="1803000" />
       <workItem from="1723458744368" duration="1021000" />
       <workItem from="1723459854903" duration="2835000" />
-      <workItem from="1723466308998" duration="24526000" />
+      <workItem from="1723466308998" duration="25132000" />
     </task>
+    <task id="LOCAL-00001" summary="Ersteinrichtung ohne Servicetests and frontend">
+      <option name="closed" value="true" />
+      <created>1723550625474</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1723550625474</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,23 +258,25 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Ersteinrichtung ohne Servicetests and frontend" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ersteinrichtung ohne Servicetests and frontend" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/fida/todos/builder/TodoEintragBuilder.java</url>
-          <line>31</line>
+          <line>29</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/fida/todos/builder/TodoEintragBuilder.java</url>
-          <line>20</line>
+          <line>18</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/fida/todos/service/TodoEintragServiceImplTest.java</url>
-          <line>42</line>
+          <line>35</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
