@@ -4,7 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d7240c3-dd3f-47e9-8110-0660a903913f" name="Changes" comment="Ersteinrichtung ohne Servicetests and frontend" />
+    <list default="true" id="3d7240c3-dd3f-47e9-8110-0660a903913f" name="Changes" comment="Ersteinrichtung with database">
+      <change afterPath="$PROJECT_DIR$/.idea/developer-tools.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/startbrowser.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/templates.code-workspace" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/fida/todos/builder/TodoEintragBuilderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fida/todos/TodoEintragApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fida/todos/TodoEintragApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fida/todos/builder/TodoEintragBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fida/todos/builder/TodoEintragBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fida/todos/controller/TodoEintragController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fida/todos/controller/TodoEintragController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fida/todos/service/TodoEintragServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fida/todos/service/TodoEintragServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/fida/todos/service/TodoEintragServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/fida/todos/service/TodoEintragServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testdb.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/testdb.mv.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testdb.trace.db" beforeDir="false" afterPath="$PROJECT_DIR$/testdb.trace.db" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,6 +82,8 @@
     "HTTP Request.generated-requests | #4.executor": "Run",
     "HTTP Request.generated-requests | #6.executor": "Run",
     "HTTP Request.generated-requests | #7.executor": "Run",
+    "HTTP Request.generated-requests | #8.executor": "Run",
+    "JUnit.TodoEintragBuilderTest.build.executor": "Debug",
     "JUnit.TodoEintragControllerTest.shouldGetAppByIdOneSuccessfully.executor": "Run",
     "JUnit.TodoEintragControllerTest.shouldGetAppNotFoundExceptionWithErrorNotFoundHttpStatus.executor": "Run",
     "JUnit.TodoEintragControllerTest.shouldTryUpdateAppWithUnknownIdWithErrorNotFoundHttpStatus.executor": "Run",
@@ -72,13 +91,17 @@
     "JUnit.TodoEintragControllerTest.sollteAppNotFoundExceptionWithErrorNotFoundHttpStatus.executor": "Run",
     "JUnit.TodoEintragControllerTest.sollteErfolgreichEinNeuenEintragErstellen.executor": "Run",
     "JUnit.TodoEintragControllerTest.sollteErfolgreichZweiNeuenEintrageErstellen.executor": "Run",
-    "JUnit.TodoEintragServiceImplTest.ErstelEinNeueEintrag.executor": "Run",
-    "JUnit.TodoEintragServiceImplTest.SammelalleTodoEintrage.executor": "Run",
+    "JUnit.TodoEintragServiceImplTest.ErstelEinNeueEintrag.executor": "Debug",
+    "JUnit.TodoEintragServiceImplTest.SammelalleTodoEintrage.executor": "Debug",
+    "JUnit.TodoEintragServiceImplTest.testCreateOrSaveEmployee.executor": "Debug",
     "JUnit.TodoEintragTest.executor": "Run",
     "JUnit.TodoEintragTest.getId.executor": "Run",
     "JUnit.TodoEintragTest.setErledigungsdatum.executor": "Run",
     "JUnit.TodoEintragTest.setId.executor": "Debug",
+    "JavaScript Debug.index.html (1).executor": "Run",
+    "JavaScript Debug.index.html.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "Maven.aufgabe [org.apache.maven.plugins:maven-surefire-plugin:3.0.0:test].executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -86,10 +109,13 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Shell Script.mvnw.executor": "Run",
+    "Spring Boot.ClientApplication.executor": "Run",
     "Spring Boot.SpringBootJpaH2Application (1).executor": "Run",
-    "Spring Boot.TodoEintragApplication.executor": "Debug",
+    "Spring Boot.TodoEintragApplication.executor": "Run",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "jdk.selected.JAVA_MODULE": "18",
     "kotlin-language-version-configured": "true",
     "last_directory_selection": "/Users/louis/IdeaProjects/TODO-Eintrage/src/main/java/com/fida/todos",
     "node.js.detected.package.eslint": "true",
@@ -115,106 +141,113 @@
       <recent name="com.fida.todos.model.domain" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.fida.todos.builder" />
       <recent name="com.fida.todos.model.domain" />
       <recent name="com.fida.todos.service" />
       <recent name="com.fida.todos.model" />
       <recent name="com.fida.todos.controller" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TodoEintragTest">
-    <configuration name="TodoEintragControllerTest.shouldTryUpdateAppWithUnknownIdWithErrorNotFoundHttpStatus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TodoEintragBuilderTest.build">
+    <configuration name="TodoEintragBuilderTest.build" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TODO-Eintrage" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.fida.todos.controller.*" />
+          <option name="PATTERN" value="com.fida.todos.builder.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.fida.todos.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.fida.todos.controller.TodoEintragControllerTest" />
-      <option name="METHOD_NAME" value="shouldTryUpdateAppWithUnknownIdWithErrorNotFoundHttpStatus" />
+      <option name="PACKAGE_NAME" value="com.fida.todos.builder" />
+      <option name="MAIN_CLASS_NAME" value="com.fida.todos.builder.TodoEintragBuilderTest" />
+      <option name="METHOD_NAME" value="build" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TodoEintragTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TodoEintragServiceImplTest.ErstelEinNeueEintrag" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TODO-Eintrage" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.fida.todos.model.domain.*" />
+          <option name="PATTERN" value="com.fida.todos.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.fida.todos.model.domain" />
-      <option name="MAIN_CLASS_NAME" value="com.fida.todos.model.domain.TodoEintragTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TodoEintragTest.getId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TODO-Eintrage" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.fida.todos.model.domain.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.fida.todos.model.domain" />
-      <option name="MAIN_CLASS_NAME" value="com.fida.todos.model.domain.TodoEintragTest" />
-      <option name="METHOD_NAME" value="getId" />
+      <option name="PACKAGE_NAME" value="com.fida.todos.service" />
+      <option name="MAIN_CLASS_NAME" value="com.fida.todos.service.TodoEintragServiceImplTest" />
+      <option name="METHOD_NAME" value="ErstelEinNeueEintrag" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TodoEintragTest.setErledigungsdatum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TodoEintragServiceImplTest.SammelalleTodoEintrage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TODO-Eintrage" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.fida.todos.model.domain.*" />
+          <option name="PATTERN" value="com.fida.todos.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.fida.todos.model.domain" />
-      <option name="MAIN_CLASS_NAME" value="com.fida.todos.model.domain.TodoEintragTest" />
-      <option name="METHOD_NAME" value="setErledigungsdatum" />
+      <option name="PACKAGE_NAME" value="com.fida.todos.service" />
+      <option name="MAIN_CLASS_NAME" value="com.fida.todos.service.TodoEintragServiceImplTest" />
+      <option name="METHOD_NAME" value="SammelalleTodoEintrage" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TodoEintragTest.setId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TodoEintragServiceImplTest.testCreateOrSaveEmployee" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TODO-Eintrage" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.fida.todos.model.domain.*" />
+          <option name="PATTERN" value="com.fida.todos.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.fida.todos.model.domain" />
-      <option name="MAIN_CLASS_NAME" value="com.fida.todos.model.domain.TodoEintragTest" />
-      <option name="METHOD_NAME" value="setId" />
+      <option name="PACKAGE_NAME" value="com.fida.todos.service" />
+      <option name="MAIN_CLASS_NAME" value="com.fida.todos.service.TodoEintragServiceImplTest" />
+      <option name="METHOD_NAME" value="testCreateOrSaveEmployee" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.todo.client.ClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TodoEintragApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="TODO-Eintrage" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.fida.todos.TodoEintragApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fida.todos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.TodoEintragControllerTest.shouldTryUpdateAppWithUnknownIdWithErrorNotFoundHttpStatus" />
-      <item itemvalue="JUnit.TodoEintragTest" />
-      <item itemvalue="JUnit.TodoEintragTest.getId" />
-      <item itemvalue="JUnit.TodoEintragTest.setErledigungsdatum" />
-      <item itemvalue="JUnit.TodoEintragTest.setId" />
+      <item itemvalue="JUnit.TodoEintragBuilderTest.build" />
+      <item itemvalue="JUnit.TodoEintragServiceImplTest.ErstelEinNeueEintrag" />
+      <item itemvalue="JUnit.TodoEintragServiceImplTest.SammelalleTodoEintrage" />
+      <item itemvalue="JUnit.TodoEintragServiceImplTest.testCreateOrSaveEmployee" />
+      <item itemvalue="Spring Boot.ClientApplication" />
+      <item itemvalue="Spring Boot.TodoEintragApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TodoEintragTest" />
-        <item itemvalue="JUnit.TodoEintragTest.setErledigungsdatum" />
-        <item itemvalue="JUnit.TodoEintragTest.setId" />
-        <item itemvalue="JUnit.TodoEintragTest.getId" />
-        <item itemvalue="JUnit.TodoEintragControllerTest.shouldTryUpdateAppWithUnknownIdWithErrorNotFoundHttpStatus" />
+        <item itemvalue="JUnit.TodoEintragBuilderTest.build" />
+        <item itemvalue="JUnit.TodoEintragServiceImplTest.SammelalleTodoEintrage" />
+        <item itemvalue="JUnit.TodoEintragServiceImplTest.testCreateOrSaveEmployee" />
+        <item itemvalue="JUnit.TodoEintragServiceImplTest.ErstelEinNeueEintrag" />
+        <item itemvalue="Spring Boot.TodoEintragApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -229,7 +262,7 @@
       <workItem from="1723456918205" duration="1803000" />
       <workItem from="1723458744368" duration="1021000" />
       <workItem from="1723459854903" duration="2835000" />
-      <workItem from="1723466308998" duration="25132000" />
+      <workItem from="1723466308998" duration="57668000" />
     </task>
     <task id="LOCAL-00001" summary="Ersteinrichtung ohne Servicetests and frontend">
       <option name="closed" value="true" />
@@ -239,7 +272,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723550625474</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Ersteinrichtung with database">
+      <option name="closed" value="true" />
+      <created>1723550844816</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1723550844816</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -259,25 +300,56 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Ersteinrichtung ohne Servicetests and frontend" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ersteinrichtung ohne Servicetests and frontend" />
+    <MESSAGE value="Ersteinrichtung with database" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ersteinrichtung with database" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/fida/todos/builder/TodoEintragBuilder.java</url>
-          <line>29</line>
+          <line>31</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/fida/todos/builder/TodoEintragBuilder.java</url>
-          <line>18</line>
-          <option name="timeStamp" value="14" />
+          <line>21</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/fida/todos/service/TodoEintragServiceImpl.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/fida/todos/service/TodoEintragServiceImpl.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/fida/todos/service/TodoEintragServiceImplTest.java</url>
-          <line>35</line>
-          <option name="timeStamp" value="15" />
+          <line>53</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/fida/todos/service/TodoEintragServiceImpl.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/fida/todos/service/TodoEintragServiceImpl.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/fida/todos/service/TodoEintragServiceImplTest.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/fida/todos/service/TodoEintragServiceImpl.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="35" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

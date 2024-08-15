@@ -4,6 +4,7 @@ import com.fida.todos.model.domain.TodoEintrag;
 import com.fida.todos.model.dto.TodoEintragDTO;
 import lombok.AllArgsConstructor;
 import org.modelmapper.ModelMapper;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import java.time.LocalDate;
@@ -13,6 +14,7 @@ import java.util.Optional;
 @AllArgsConstructor
 public class TodoEintragBuilder {
 
+    @Autowired
     private final ModelMapper modelMapper;
 
     public TodoEintrag build(TodoEintragDTO dto) {

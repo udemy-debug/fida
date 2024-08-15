@@ -6,6 +6,7 @@ import com.fida.todos.model.domain.TodoEintrag;
 import com.fida.todos.model.dto.TodoEintragDTO;
 import com.fida.todos.repository.TodoEintragRepository;
 import lombok.AllArgsConstructor;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -16,9 +17,12 @@ import java.util.stream.Stream;
 
 @Service
 @AllArgsConstructor
+@Transactional
 public class TodoEintragServiceImpl implements TodoEintragService {
 
+    @Autowired
     private final TodoEintragRepository repository;
+    @Autowired
     private final TodoEintragBuilder builder;
 
     @Override
@@ -60,4 +64,5 @@ public class TodoEintragServiceImpl implements TodoEintragService {
                 .map(builder::build)
                 .orElseThrow(() -> new AppNotFoundException(String.format("No such App for id '%s'", id)));
     }
+
 }

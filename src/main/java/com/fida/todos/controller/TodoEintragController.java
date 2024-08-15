@@ -12,7 +12,11 @@ import org.springframework.web.util.UriComponentsBuilder;
 
 import javax.validation.Valid;
 
-@CrossOrigin(origins = "http://localhost:8081")
+/**
+ * Use Node.js on http://127.0.0.1:5500/index.html
+ * to see the list of "eintrage"
+ */
+@CrossOrigin(origins = "http://127.0.0.1:5500")
 @RestController
 @AllArgsConstructor
 @RequestMapping("/api/v1/todos")
@@ -36,6 +40,7 @@ public class TodoEintragController {
     headers.setLocation(uriComponents.toUri());
     return new ResponseEntity<>(headers, HttpStatus.CREATED);
   }
+
 
   /**
    * Sammelt alle Aufgaben
